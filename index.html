@@ -16,7 +16,24 @@
     <h3>
         <a href="https://www.google.com" target="_blank">Go to Google</a>
     </h3> <!-- target self는 현재창에서 링크이동 blank는 새창으로 링크이동-->
+    
+    <form> <!--https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input-->
+      <label for=profile">Profile Photo</label>
+      <input id="profile" type="file" accept="image/*" /> <!--WHEN SEARCHING, html "mdn" DON"T FORGET!!-->
+      
+      <label for="website">URL</label>
+      <input id="website" required placeholder="website" type="url" />
+
+      <input type="date" />
+      <!--id는 body안 어떤 태그에든 넣을 수 있는 attribute이다.-->
+      <!--element당 하나의 고유한 id만 가질 수 있다.-->
+
+      <input required placeholder="email address" type="email" />
+      <input type="submit" value="Create Account" />
+    </form>
+    
     <img src="https://i.pinimg.com/564x/54/c5/c2/54c5c25cbdd9bdd194f4518a84f50b69.jpg">
+    
     <ol>
       <li>돼지고기</li>
       <li>미역</li>
@@ -26,3 +43,4 @@
     <!--ol이든 ul이든 목록에는 li가 있어야한다! -->
   </body>
 </html>
+<!--html, css 검색시에는 mdn 끼워넣어 검색하기. 안쓰면 www.w3schools.com 이 맨위로 나오는데 사용하지 말것.-->
