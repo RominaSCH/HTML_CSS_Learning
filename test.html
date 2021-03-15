@@ -16,8 +16,8 @@
         width: 200px; height: 200px;
         border-radius: 50%;
       }
-      @media screen and (min-width: 601px) and (max-width: 1000px) and (orientation: landscape){
-        div {
+      @media screen and (min-device-width: 601px) and (max-device-width: 1000px) and (orientation: landscape){
+        div { /* max-device-width: 400px 뒤에 세미콜론 안붙음 잘 볼 것. */
           background-color: orange;
         }
       }
@@ -27,6 +27,11 @@
       @media screen and (orientation: landscape){
         span{
           display: none;
+        }
+      }
+      @media print { /*프린트 시 설정.*/
+        body{
+          background-color: sandybrown;
         }
       }
     </style>
