@@ -9,36 +9,30 @@
         height: 100vh;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
       }
       div{
+        background-color: teal;
         width: 200px; height: 200px;
         border-radius: 50%;
       }
-      @media screen and (max-width: 600px){
-        div {
-          background-color: tomato;
-        }
-      }
-      @media screen and (min-width: 601px) and (max-width: 1000px){
+      @media screen and (min-width: 601px) and (max-width: 1000px) and (orientation: landscape){
         div {
           background-color: orange;
         }
       }
-      @media screen and (min-width: 1000px) and (max-width: 1200px){
-        div {
-          background-color: green;
-        }
+      span{
+        font-size: 36px;
       }
-      @media screen and (min-width: 1200px){
-        div {
-          background-color: rgb(11, 102, 221);
+      @media screen and (orientation: landscape){
+        span{
+          display: none;
         }
       }
     </style>
   </head>
   <body>
-    <div>
-
-    </div>
+    <div></div>
+    <span>Please flip your phone.</span>
   </body>
 </html>
