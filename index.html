@@ -1,62 +1,25 @@
 <!DOCTYPE html>
-<html lang="en"><!--lang 은 검색엔진에 영향을 끼침-->
-  <head>
-    <title>START HTML</title>
-    <meta name="description" content="learn html and css">
-    <!--검색 시 보여지는 부분이 meta content 검색 시에 중요하게 여겨지는 부분.-->
-    <meta charset="utf-8" /> <!--굉장히 중요하다 text를 어떻게 그려달라는지에 대한 정보-->
-    <!-- <link rel="stylesheet"
-    href="style.css" /> -->
-    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://nomadcoders.co/m.png"/>
-    <!--title 왼쪽 shortcut icon 변경. 개귀엽네-->
-    <!--meta property="og:image" 는 링크공유시 나타나는 이미지. content="이미지링크" 로 만든다. 2.6 9:30강의 참조-->
-</head> <!--사이트의 부가적인 정보는 모두 head에 입력한다.-->
-  <body>
-    <h1>START HTML</h1>
-    <h3>
-        <a href="https://www.google.com" target="_blank">Go to Google</a>
-    </h3> <!-- target self는 현재창에서 링크이동 blank는 새창으로 링크이동-->
-    <header><!--div랑 기능이 같다-->
-      <h4>So Sleepy NOW...</h4> <!--div id="header" 도 가능 그러나 딱보면 의미를 알 수 있다.-->
-    </header><!--div id="main" 도 가능하지만 header!-->
-    <!--Semantic HTML(document와 code를 명확하게 할 수 있도록 짜는게 좋다) document와 content를 명확하게 묘사할 수 있도록-->
-    <form> <!--https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input-->
-    <div><!--div는 box! 옆으로 안쌓이고 위아래로 정리된다. 아무런 의미도 없다-->
-      <label for=profile">Profile Photo</label>
-      <input id="profile" type="file" accept="image/*" /> <!--WHEN SEARCHING, html "mdn" DON"T FORGET!!-->
-      </div>
-    <div>
-      <label for="website">URL</label>
-      <input id="website" required placeholder="website" type="url" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa talk</title>
+</head>
+<body>
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <!--Wifi Icon add-->
+        </div>
+        <div class="status-bar__column">
+            <span>1:41</span>
+        </div>
+        <div class="status-bar__column">
+            <span>89%</span>
+            <!--Battery Icon-->
+            <!--Lighting Icon-->
+        </div>
     </div>
-    <div>
-      <input type="date" />
-      <!--id는 body안 어떤 태그에든 넣을 수 있는 attribute이다.-->
-      <!--element당 하나의 고유한 id만 가질 수 있다.-->
-    </div>
-    <div>
-      <input required placeholder="email address" type="email" />
-      <input type="submit" value="Create Account" />
-    </div>
-    </form>
-  
-    <img src="https://i.pinimg.com/564x/54/c5/c2/54c5c25cbdd9bdd194f4518a84f50b69.jpg">
-    <!-- aside는 어떻게 쓰는걸까? -->
-    <ol>
-      <li>돼지고기</li>
-      <li>미역</li>
-      <li>소고기</li>
-      <li>닭고기</li>
-    </ol>
-    <span><!--짧은 text를 위한 태그-->
-      What do you want to eat?
-    </span>
-    <!--ol이든 ul이든 목록에는 li가 있어야한다! -->
-    <!--div로 다 채워서 알아보기 어렵게 하지 말고 태그보고 알아보기 쉽게 만드는 게 좋다! 남들도 알아보기 쉽게.-->
-    <footer>
-      Go to bed
-    </footer>
-
-  </body>
+</body>
 </html>
-<!--html, css 검색시에는 mdn 끼워넣어 검색하기. 안쓰면 www.w3schools.com 이 맨위로 나오는데 사용하지 말것.-->
