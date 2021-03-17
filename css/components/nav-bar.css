@@ -1,5 +1,53 @@
 svg{
-    width: 50px;
-    height: 50px;
-    color: palevioletred;
+    width: 30px;
+    height: 30px;
+}
+.nav {
+    background-color: whitesmoke;
+    padding: 18px 50px;
+    box-sizing: border-box;
+    /*box-sizing:border-box 는 padding 을 줘도 box 사이즈를 유지하라는 마법명령*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav__link{
+    color: #2e363e;
+    position: relative;
+}
+
+.nav__notification {
+    /* font-family: sans-serif; */
+    background-color: tomato;
+    color: white;
+    font-size: 11px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    top: -15px;
+}
+.nav__notidot{
+    background-color: tomato;
+    font-size: 13px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 27px;
+    top: -10px;
 }
