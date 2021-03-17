@@ -1,0 +1,64 @@
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-header__title{
+    font-size: 25px;
+}
+.welcome-header__text{
+    width: 80%;
+    opacity: 0.6;
+    margin-top: 40px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input{
+    padding: 10px 0px;
+    font-size: 18px;
+    all: unset;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder{
+    color: 1px solid rgba(0,0,0,0.2);
+}
+
+#login-form input:focus{
+    border-color:var(--clicked);
+}
+
+#login-form button{
+    background-color: white;
+    border: none;
+    padding: 6px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in;
+    cursor:pointer;
+    outline: 0;
+}
+#login-form button:active{
+    outline: 0;
+    border: none; /*클릭시에 border생기는거 없애는거*/
+}
+
+#login-form a{
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:inherit;
+    opacity: 0.8;
+}

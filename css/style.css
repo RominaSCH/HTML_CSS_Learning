@@ -2,52 +2,10 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "variables.css";
+@import "login_form.css";
 
 body{
     background-color:var(--yellow);
     font-family: 'Oswald', sans-serif;
 }
 
-.welcome-header {
-    margin: 90px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.welcome-header__title{
-    font-size: 25px;
-}
-.welcome-header__text{
-    width: 80%;
-    opacity: 0.6;
-    margin-top: 40px;
-}
-
-#login-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
-}
-
-#login-form input{
-    padding: 10px 0px;
-    font-size: 18px;
-    /* border: none; */
-    all: unset;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    margin-bottom: 15px;
-    
-}
-#login-form input:not([type="submit"]){
-    border-bottom: none;
-}
-
-#login-form input::placeholder{
-    color: 1px solid rgba(0,0,0,0.2);
-    transition: border-color 0.3s ease-in-out;
-}
-/* 
-#login-form input:focus{
-    border-color: rgb(121, 56, 10) */
