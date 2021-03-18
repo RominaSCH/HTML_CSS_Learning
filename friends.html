@@ -46,18 +46,39 @@
       </svg> Friends' Names Display >
     </a>
 
+    <main class="friends-screen">
     <div class="user-component">
       <!-- .user-components__column*2 단축키-->
       <div class="user-component__column">
-        <img src="image/profile.jpg" class="user-component__avatar" />
+        <img src="image/profile.jpg" class="user-component__avatar user-component__avatar--xl" />
         <div class="user-component__text">
           <h4 class="user-component__title">Song</h4>
-          <h6 class="user-component__subtitle">Sleepy</h6>
+          <!-- <h6 class="user-component__subtitle">Sleepy</h6> -->
         </div>
       </div>
       <div class="user-component__column"></div>
     </div>
-
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>Channel</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="image/kakao.png"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--noBold">Channel</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2 ></span>
+        </div>
+      </div>
+    </div>
+    </main>
 
     <!-- nav>ul>li*4>a 단축키!-->
     <nav class="nav">
