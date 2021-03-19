@@ -1,0 +1,41 @@
+.user-component__subtitle svg{
+    width: 18px;
+    height: 18px;
+    color: tomato;
+    margin-left: 5px;
+}
+.user-component__subtitle{
+    display: flex;
+    align-items: center;
+}
+.user-component__column>svg{
+    width: 35px;
+    height: 35px;
+}
+
+.suggestions{
+    padding: 20px 0px;
+    border-top: var(--division-border);
+}
+.suggestions__icons{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: left;
+}
+.suggestions__icons-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    width: 75px;
+}
+
+.suggestions__header{
+    font-size: 16px;
+}
+.suggestions__icons-img>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
