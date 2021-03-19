@@ -6,11 +6,16 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body{
     background-color:var(--basic);
     font-family: 'Oswald', sans-serif;
+}
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }

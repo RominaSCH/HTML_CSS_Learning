@@ -7,6 +7,22 @@
 .screen-header__title{
     font-size: 28px;
 }
+.screen-header__icons{
+    position: relative;
+}
 .screen-header__icons span{
     margin-left: 10px;
+}
+.screen-header__dot{
+    background-color: tomato;
+    font-size: 13px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }

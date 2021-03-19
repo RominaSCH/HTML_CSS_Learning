@@ -1,0 +1,27 @@
+.find-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border-bottom: var(--division-border);
+}
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 105px;
+}
+.find-icons__icon>i{
+    font-size: 40px;
+}
+.find-icons__icon span{
+    margin: 20px 0px;
+}
+.recommended-friends{
+    padding: 20px 0px;
+    border-bottom: var(--division-border);
+}
+.recommended-friends__title{
+    font-size: 15px;
+    color:var(--tonedown-color);
+}

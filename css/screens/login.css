@@ -25,13 +25,13 @@
     padding: 10px 0px;
     font-size: 18px;
     all: unset;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid var(--division-border);
     margin-bottom: 15px;
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder{
-    color: 1px solid rgba(0,0,0,0.2);
+    color: 1px solid var(--division-border);
 }
 
 #login-form input:focus{
