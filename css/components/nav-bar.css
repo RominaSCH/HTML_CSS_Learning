@@ -3,8 +3,8 @@ svg{
     height: 30px;
 }
 .nav {
-    background-color: whitesmoke;
-    padding: 18px 50px;
+    background-color: white;
+    padding: 13px 50px;
     box-sizing: border-box;
     /*box-sizing:border-box 는 padding 을 줘도 box 사이즈를 유지하라는 마법명령*/
     position: fixed;
