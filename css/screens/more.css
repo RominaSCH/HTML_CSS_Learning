@@ -11,6 +11,7 @@
 .user-component__column>svg{
     width: 35px;
     height: 35px;
+    color: rgba(0,0,0,0.8);
 }
 
 .suggestions{

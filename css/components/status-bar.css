@@ -6,7 +6,8 @@
     box-sizing: border-box;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: var(--couple-color);
+    color: white;
 }
 .status-bar__column {
     width: 33%;
