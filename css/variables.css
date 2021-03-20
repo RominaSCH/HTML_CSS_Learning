@@ -1,7 +1,7 @@
 /*계속 사용되는 코드는 변수화하는게 좋다*/
 :root{
-    --basic:#FFE0B2;
-    --clicked:#391D1D;
+    --basic:#FFDFB9;
+    --couple-color:#A4193D;
     --horizontal-space: 15px;
     --division-border:1px solid rgba(0,0,0,0.3);
     --tonedown-color:rgba(0,0,0,0.5);

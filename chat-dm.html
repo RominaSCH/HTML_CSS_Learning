@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Welcome to Kokoa talk</title>
+    <title>DM</title>
   </head>
-  <body>
+  <body id="chat-screen">
+    
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No service</span>
@@ -24,15 +25,18 @@
     </div>
 
     <header class="alt-header">
-      <div class="alt-header__column">
-          <a href="friends.html"><i class="fas fa-chevron-left"></i></a>
-      </div><!--이전페이지로 돌아가게 하고싶음. 자바스크립트 안쓰면 못하나?-->
-      <div class="alt-header__column">
-          <h1 class="alt-header__title">DM</h1></div>
-      <div class="alt-header__column"><i class="fas fa-search"></i></div>
-  </header>
-
-
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">DM</h1>
+          </div>
+        <div class="alt-header__column">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="fas fa-bars"></i></span>
+        </div>
+    </header>
+    <img class="chat-background" src="image/chat-dm-bgimg.jpg" />
 
     <script src="clock.js"></script>
     <script
