@@ -6,8 +6,6 @@
     top: 0;
     z-index: 1;
 }
-
-
 /* .chat-background{
     margin-top: 65px;
     position: fixed;
@@ -29,4 +27,62 @@
     background-color: var(--couple-color);
     font-size: 13px;
     font-weight: 200px;
+    margin-bottom: 20px;
+}
+.message-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.message-row img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.message__author,
+.message__time{
+    opacity: 0.7;
+    font-size: 14px;
+}
+.message__time{
+    margin: 0px 5px;
+}
+.message__author{
+    display: block;
+    padding-bottom: 5px;
+}
+.message__receive{
+    display: block;
+    padding: 10px 13px;
+    background-color: white;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    /* margin: 5px 10px; */
+}
+.message__info{
+    display: flex;
+    align-items: flex-end;
+}
+.message-row--own{
+    justify-content: flex-end;
+}
+.message-row--own .message__receive{
+    background-color: var(--couple-color);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+}
+/* .message-row--own .message__receive{
+    order: 1; flex children에게만 적용된다
+}
+.message-row--own .message__time{
+    order: 0;
+} 하지만 이렇게 하면 코드가 길어지니까 아래 방식 적용*/
+.message-row--own .message__info{
+    flex-direction: row-reverse;
+}
+.message__receive>img{
+    width: 100px;
+    height: 100px;
 }
