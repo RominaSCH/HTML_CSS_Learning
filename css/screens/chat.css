@@ -86,3 +86,52 @@
     width: 100px;
     height: 100px;
 }
+.reply{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.reply .reply__column:first-child{
+    width: 6%;
+}
+.reply .reply__column:last-child{
+    width: 94%;
+    position: relative;
+}
+.reply input{
+    font-size: 16px;
+    padding: 7px;
+    padding-left: 12px;
+    width: 100%;
+    border: var(--division-border);
+    border-radius:18px;
+    box-sizing: border-box;
+}
+.reply__column:last-child > i{
+    position: absolute;
+    top: 9px;
+    right: 40px;
+}
+.reply__column:last-child button{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    background-color: var(--basic);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.reply__column button:focus,
+.reply__column button:active{
+    outline: none;
+}
+.reply__column:first-child>i{
+    opacity: 0.7;
+}
