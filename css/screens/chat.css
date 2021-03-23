@@ -174,10 +174,9 @@
   transform: translateX(-6%) translateY(-80px);
 }
 .reply:focus-within button{
-    transform: translateY(-80px);
+    transform: translateY(-80px);/*x좌표는 화면마다 달라서 맞추기가 영 어렵넹 퍼센티지도 안먹고*/
     animation: fadeIn .3s ease-in-out;
 }
-
 .reply:focus-within{
     transform: translateY(80px);
 }
