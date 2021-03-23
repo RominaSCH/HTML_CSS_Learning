@@ -44,7 +44,7 @@
 .open-post__status{
     display: flex;
     /* align-items: center; */
-} 난 이거하면 오히려 이상해지는데 뭘까
+} /*난 이거하면 오히려 이상해지는데 뭘까*/
 
 .open-post__hashtag,
 .open-post__status-members,
@@ -67,6 +67,20 @@
 .open-post__photo{
     position: relative;
 }
+@keyframes membersBadgeAnimation{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
 .members-badge {
     background-color: var(--tonedown-color);
     color: white;
@@ -79,4 +93,8 @@
     position: absolute;
     right: 5px;
     bottom: 5px;
+}
+.members-badge i:hover{
+    will-change: transform;/*scale이 작을 경우 흔들려서 미리 웹에게 이 부분이 trasform할거라고 알려줌 그래픽카드(+브라우저)가 애니메이션을 가속화함*/
+    animation: membersBadgeAnimation 1s ease-in-out infinite;
 }

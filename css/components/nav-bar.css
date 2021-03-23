@@ -24,11 +24,22 @@ svg{
     color: #2e363e;
     position: relative;
 }
-
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-4px) rotateY(90deg);
+    }
+    100%{
+        transform: none;
+    }
+}
 .nav__notification {
     position: absolute;
     left: 15px;
     top: -15px;
+    animation: notificationAnimation 1s ease-in-out infinite;
 }
 .nav__notidot{
     background-color: pink;
@@ -42,4 +53,27 @@ svg{
     position: absolute;
     left: 27px;
     top: -10px;
+}
+@keyframes appearBtn{
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+.nav__li{
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearBtn 1s ease-in-out forwards;
+}
+.nav__li:nth-child(2){
+    animation-delay: 0.15s;
+}
+.nav__li:nth-child(3){
+    animation-delay: 0.3s;
+}
+.nav__li:last-child{
+    animation-delay: 0.45s;
 }
