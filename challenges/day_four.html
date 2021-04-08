@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create An Account</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+        :root{
+            --basic-color: #161B21;
+            --couple-color: #F2EDD7;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* font-family: 'Merriweather', serif; */
+            font-family: 'Varela Round', sans-serif;
+            /* font-size:15px; */
+        }
+        body{
+            background: var(--basic-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            /* text-align: center; */
+            margin: 20px;
+            font-size: 50px;
+            color:whitesmoke;
+            text-shadow: 1px 2px 5px rgba(255,255,255,0.6);
+            font-weight: 700;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapper{
+            background: var(--couple-color);
+            width: 500px;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow:         2px 0px 10px 0px rgba(242, 237, 215, 0.75);
+        }
+        .left{
+            width: 230px;
+            /* float: left;
+            box-sizing: border-box; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right{
+            width: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .button{
+            outline: 0;
+            border: 0;
+            all: unset;
+            background: var(--couple-color);
+            border-radius: 5px;
+            padding: 6px;
+            margin-top: 20px;
+            transition: transform .2s ease-in-out;
+            box-shadow:         2px 0px 6px 0px rgba(242, 237, 215, 0.75);
+        }
+        .button:hover{
+            transform:scale(1.1);
+        }
+        label{
+            display: block;
+            height: 25px;
+            margin: 5px;
+        }
+        input{
+            border: none;
+            border-radius: 5px;
+            height: 25px;
+            padding: 5px;
+            margin: 5px;
+            transition: .2s ease-in-out;
+        }
+        input:active, input:focus{
+            outline: 0;
+            border: 0;
+            transform: scaleX(1.2) scaleY(1.1);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <form>
+    <div class="wrapper">
+        <div class="left">
+            <label>First Name</label>
+            <label>Last Name</label>
+            <label>E-mail</label>
+            <label>Username</label>
+            <label>Password</label>
+            <label>Birth Date</label>
+            <label>How happy are you?</label>
+            <label>What is your favorite color?</label>
+        </div>
+        <div class="right">
+            <input required minlength="1" type="text" placeholder="First Name"/>
+            <input required minlength="1" type="text" placeholder="Last Name"/>
+            <input required type="email" placeholder="E-mail"/>
+            <input required minlength="2" type="text" placeholder="Username"/>
+            <input required minlength="10" type="password" placeholder="Password"/>
+            <input required type="date"/>
+            <input class="slider_range" type="range" value="0" min="0" max="10" step="1">
+            <input type="color"/>
+        </div>
+    </div>
+    <input type="submit" class="button" value="Create Account">
+</form>
+    <!-- <button>Create Account</button> -->
+</body>
+</html>

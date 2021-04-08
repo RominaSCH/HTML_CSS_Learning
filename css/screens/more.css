@@ -21,7 +21,7 @@
 .suggestions__icons{
     margin: 20px 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .suggestions__icons-img{
     display: flex;

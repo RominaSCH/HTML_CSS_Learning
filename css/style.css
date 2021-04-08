@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
 @import "reset.css";
 @import "variables.css";
@@ -17,10 +18,14 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-weight: 400;
+}
 body{
     background-color:var(--basic);
-    font-family: 'Oswald', sans-serif;
+    
 }
 .main-screen {
     padding: 0px var(--horizontal-space);
