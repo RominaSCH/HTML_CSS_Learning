@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create An Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <form>
+    <div class="wrapper">
+        <div class="left">
+            <label>First Name</label>
+            <label>Last Name</label>
+            <label>E-mail</label>
+            <label>Username</label>
+            <label>Password</label>
+            <label>Birth Date</label>
+            <label>How happy are you?</label>
+            <label>What is your favorite color?</label>
+        </div>
+        <div class="right">
+            <input required minlength="1" type="text" placeholder="First Name"/>
+            <input required minlength="1" type="text" placeholder="Last Name"/>
+            <input required type="email" placeholder="E-mail"/>
+            <input required minlength="2" type="text" placeholder="Username"/>
+            <input required minlength="10" type="password" placeholder="Password"/>
+            <input required type="date"/>
+            <input class="slider_range" type="range" value="0" min="0" max="10" step="1">
+            <input type="color"/>
+        </div>
+    </div>
+    <input type="submit" class="button" value="Create Account">
+</form>
+    <!-- <button>Create Account</button> -->
+</body>
+</html>
