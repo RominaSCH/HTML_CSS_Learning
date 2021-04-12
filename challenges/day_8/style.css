@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+body{
+    background: #F5F5F5;
+}
+header{
+    text-align: center;
+    height: 80px;
+    margin: 30px;
+    font-size: 60px;
+    display: block;
+    font-weight: 700;
+}
+main{
+    font-size: 18px;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.wrapper{
+    width: 170px;
+    height: 300px;
+    padding: 5px;
+    background: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+.index{
+    padding-left: 12px;
+}
+.row-1 .wrapper:first-child{
+    margin-right: 15px;
+}
+.row-1 .wrapper:first-child .bg-color{
+    background: #FF6347;
+    width: 100%;
+    height: 100%;
+}
+.row-1 .wrapper:first-child .index{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.row-1 .wrapper:last-child .bg-color{
+    background: #008080;
+    width: 100%;
+    height: 100%;
+}
+.row-1 .wrapper:last-child .index{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row-2 .wrapper:first-child{
+    margin-right: 15px;
+}
+.row-2 .wrapper:first-child .bg-color{
+    background: #DEB887;
+    width: 100%;
+    height: 100%;
+}
+.row-2 .wrapper:first-child .index{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.row-2 .wrapper:last-child .bg-color{
+    background: #D7BFD7;
+    width: 100%;
+    height: 100%;
+}
+.row-2 .wrapper:last-child .index{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
