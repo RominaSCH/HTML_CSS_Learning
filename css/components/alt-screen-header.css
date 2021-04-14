@@ -28,7 +28,8 @@
     margin-right: auto;
 }
 .alt-header__title{
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 500;
 }
 .alt-header__column>span{
     margin-left: 15px;

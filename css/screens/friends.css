@@ -1,4 +1,6 @@
 #friends-display-link {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 400;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -25,9 +27,11 @@
     border-top: var(--division-border);
 }
 .friends-screen__channel-header{
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
     color: var(--tonedown-color);
+    font-weight: 400;
 }
 .user-component__column.user-component__column:last-child{
     color: var(--tonedown-color);
@@ -57,6 +61,7 @@
     animation-delay: 1.5s;
 }
 .music{
+    font-weight: 500;
     border: 1px solid var(--couple-color);
     padding: 5px 8px;
     border-radius: 15px;
