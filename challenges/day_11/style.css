@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bree Serif', serif;
+    width: 350px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.main-titles {
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: #755139;
+    color: #fff;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.searching{
+    position: relative;
+}
+.search-input{
+    position: absolute;
+    top: -20px;
+    left: 24px;
+    width: 300px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 10px 10px 0px rgba(200, 200, 200, 0.75);;
+}
+.search-imo{
+    position: absolute;
+    font-size: 20px;
+    opacity: .5;
+    top:-10px;
+    right:38px;
+    transition: .3s ease-in-out;
+}
+
+.search-input:hover,
+.search-input:focus,
+.search-input:active{
+    transform: scale(1.05);
+    border: 0;
+    outline: 0;
+}
+main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fffaed;
+    z-index: -2;
+}
+.day-book{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0px;
+}
+.day-image img{
+    width: 100px;
+    height: 160px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.day-title{
+    font-size: 20px;
+}
+.day-author{
+    font-size: 16px;
+    opacity: 0.6;
+    margin: 10px 0px;
+}
+.day-stars{
+    font-size: 14px;
+    color: #FDD20E;
+    margin-bottom: 20px;
+}
+.related{
+    display: flexbox;
+    padding: 3px;
+    background-color: rgb(240,240,240);
+    margin: 5px 0px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.day-links{
+    margin: 18px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bookmark{
+    position: relative;
+    font-size: 20px;
+}
+.bg-circle{
+    width: 35px;
+    height: 35px;
+    top: -7px;
+    left: -9px;
+    position: absolute;
+    background-color: #FDD20E;
+    border-radius: 50%;
+    z-index: -1;
+}
+.booknow{
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 8px;
+    transition: .3s ease-in-out;
+}
+.recommended-books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0px;
+}
+.recom-book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+.recom-book-img img{
+    width: 60px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.recom-book-stars{
+    font-size: 10px;
+    color: #FDD20E;
+}
+
+.pop-author{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pop-img img{
+    width: 110px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.pop-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.pop-sub{
+    font-size: 16px;
+    opacity: 0.6;
+}
