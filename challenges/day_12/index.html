@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="screen">
+          <div class="nav">
+              <div><i class="fas fa-arrow-left"></i></div>
+              <div><i class="fas fa-search"></i></div>
+          </div>
+          <div class="artist-img"><img src="images/sp_profile.jpg"></div>
+          <div class="artist-info">
+              <div class="artist-info-name">Simple Plan</div>
+              <div class="artist-info-genre">Pop, Band</div>
+          </div>
+          <div class="artist-buttons">
+              <button class="artist-button">Shuffle</button>
+              <button class="artist-follower">❤ 52.4k</button>
+          </div>
+          <div class="artist-songs">
+              <div class="artist-song">
+                  <div class="artist-song-img"><img src="images/simpleplan3.jpg"></div>
+                  <div class="artist-song-info">
+                      <div class="artist-song-info-artist">Simple Plan</div>
+                      <div class="artist-song-info-title">Take my Hand</div>
+                  </div>
+                  <div class="artist-song-option">
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+              </div>
+              <div class="artist-song">
+                  <div class="artist-song-img"><img src="images/summerparadise.jpg"></div>
+                  <div class="artist-song-info">
+                      <div class="artist-song-info-artist">Simple Plan</div>
+                      <div class="artist-song-info-title">Summer Paradise</div>
+                  </div>
+                  <div class="artist-song-option">
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+              </div>
+              <div class="artist-song">
+                  <div class="artist-song-img"><img src="images/cantkeepmy.jpg"></div>
+                  <div class="artist-song-info">
+                      <div class="artist-song-info-artist">Simple Plan</div>
+                      <div class="artist-song-info-title">Can't keep my hands off you</div>
+                  </div>
+                  <div class="artist-song-option">
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+              </div>
+              <div class="artist-song">
+                  <div class="artist-song-img"><img src="images/sp_3.jpg"></div>
+                  <div class="artist-song-info">
+                      <div class="artist-song-info-artist">Simple Plan</div>
+                      <div class="artist-song-info-title">Generation</div>
+                  </div>
+                  <div class="artist-song-option">
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="song-player">
+            <div class="song-player-info">
+                <div class="song-player-info-artist">Simple Plan</div>
+                <div class="song-player-info-title">Astronaut</div>
+            </div>
+            <div class="song-player-buttons">
+                <div class="song-player-button-back"><i class="fas fa-step-backward"></i></div>
+              <div class="song-player-button-pause"><i class="fas fa-pause"></i></div>
+              <div class="song-player-button-forward"><i class="fas fa-step-forward"></i></div>
+            </div>
+          </div>
+      </div>
+      <div class="screen screen-right">
+          <div class="nav">
+            <div class="nav_left-arrow"><i class="fas fa-arrow-left"></i></div>
+            <div class="nav_menu"><i class="fas fa-ellipsis-v"></i></div>
+          </div>
+          <div class="song-img"><img src="images/astronaut.jpg"></div>
+          <div class="song-info">
+              <div class="song-info-title">Astronaut</div>
+              <div class="song-info-artist">Simple Plan</div>
+          </div>
+          <div class="song-play-time">
+              <div class="song-play-time-times">
+                  <span class="now">1:55</span>
+                  <span class="total">3:37</span>
+              </div>
+              <div class="slider-container">
+                  <div class="total-line"> </div>
+                  <div class="line"> </div>
+                  <div class="dot"> </div>
+                <!-- <input class="slider" type="range" min="0" max="217" value="105"/> -->
+              </div>
+              
+          </div>
+          <div class="song-play-buttons">
+              <div class="song-play-button-rotate"><i class="fas fa-sync-alt"></i></div>
+              <div class="song-play-button-back"><i class="fas fa-step-backward"></i></div>
+              <div class="song-play-button-play"><i class="fas fa-play"></i>
+                <div class="song-play-button-play-circle"> </div>
+                </div>
+              <div class="song-play-button-forward"><i class="fas fa-step-forward"></i></div>
+              <div class="song-play-button-shuffle"><i class="fas fa-random"></i></div>
+          </div>
+      </div>
+
+      <script src="https://kit.fontawesome.com/6c2f90a09b.js" crossorigin="anonymous"></script>
+  </body>
+</html>
