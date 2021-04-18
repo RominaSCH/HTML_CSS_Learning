@@ -1,0 +1,71 @@
+.profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-header{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50vh;
+}
+.profile-header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-header__image{
+    margin-right: 20px;
+}
+
+.profile-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding: 25px;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+}
+.profile-info__image img{
+    width: 150px;
+    height:150px;
+    border-radius: 40%;
+    margin-bottom: 15px;
+}
+.profile-info__name{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+.profile-icons{
+    width: 100%;
+    padding: 35px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-icon__icon i{
+    font-size: 45px;
+    display: block;
+    margin: 15px;
+}
+.profile-icon__title{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.profile-bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
