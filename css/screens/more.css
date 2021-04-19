@@ -19,7 +19,7 @@
     border-top: var(--division-border);
 }
 .suggestions__icons{
-    margin: 20px 10px;
+    margin: 20px 0px;
     display: flex;
     justify-content: space-between;
 }

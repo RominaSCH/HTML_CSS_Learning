@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 5px;
+    padding: 10px 10px;
     /* position: fixed;
     box-sizing: border-box;
     top: 0;
@@ -28,7 +28,8 @@
     margin-right: auto;
 }
 .alt-header__title{
-    font-size: 20px;
+    object-fit: cover;
+    font-size: 23px;
     font-weight: 500;
 }
 .alt-header__column>span{
