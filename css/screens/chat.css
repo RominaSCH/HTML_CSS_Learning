@@ -17,7 +17,7 @@
   }
   1% {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(5px);
   }
   100% {
     opacity: 1;
@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: fadeIn 0.7s linear;
+  /* animation: fadeIn 0.7s linear; */
 }
 .chat__timestamp {
   color: white;
@@ -47,11 +47,14 @@
   font-size: 13px;
   font-weight: 200px;
   margin-bottom: 20px;
+  animation: fadeIn 0.3s linear;
 }
 .message-row {
+  opacity: 0;
   width: 100%;
   display: flex;
   margin-bottom: 15px;
+  animation: transition linear;
 }
 .message-row img {
   width: 50px;
@@ -187,4 +190,36 @@
 }
 .reply:focus-within{
     transform: translateY(80px);
+}
+.show1{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: .5s;
+}
+.show2{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 1s;
+}
+.show3{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 1.5s;
+}
+.show4{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 2s;
+}
+.show5{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 2.5s;
+}
+.show6{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 3s;
+}
+.show7{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 3.5s;
+}
+.show8{
+  animation: fadeIn 0.5s linear forwards;
+  animation-delay: 4s;
 }
